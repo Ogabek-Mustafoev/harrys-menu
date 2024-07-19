@@ -1,4 +1,4 @@
-import {MotionEl} from "@/components";
+import {GoBack, MotionEl} from "@/components";
 import {burgersData} from "@/constants";
 import {Card, CardBody, CardHeader} from "@nextui-org/react";
 import NextImage from "next/image";
@@ -7,6 +7,7 @@ import {FC} from "react";
 export const BurgersPage: FC = () => {
   return (
     <section className="page container flex flex-col items-center py-10">
+      <GoBack/>
       <div className="grid grid-cols-2 gap-3 sm:gap-5 md:gap-y-8 md:gap-x-20">
         {burgersData.map((item, idx) => (
           <MotionEl className="max-w-sm" delay={idx / 10} key={item.price}>

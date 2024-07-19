@@ -1,4 +1,4 @@
-import {MotionEl} from "@/components";
+import {GoBack, MotionEl} from "@/components";
 import {set_img, sideDishesData} from "@/constants";
 import {Card, CardBody, CardHeader} from "@nextui-org/react";
 import NextImage from "next/image";
@@ -7,6 +7,7 @@ import {FC} from "react";
 export const SideDishesPage: FC = () => {
   return (
     <section className="page container flex flex-col items-center">
+      <GoBack/>
       <div className="flex gap-3 lg:gap-5 flex-col-reverse lg:flex-row">
         <div className="flex lg:flex-col gap-3 w-full lg:w-2/6">
           {sideDishesData.slice(0, 2).map((item, idx) => (

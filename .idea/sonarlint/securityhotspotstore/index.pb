@@ -17,8 +17,6 @@ O
 src/components/header/index.tsx,e\2\e2b71fad75d5baafb833ff0bf61190a693e7f5d2
 G
 src/components/index.ts,0\b\0b1c4105b7145ce4f9e5d21dfe3f33c3a5921a58
-U
-%src/components/frozen-route/index.tsx,7\b\7b1418e84a6e0ea6c51dfb26bdfc22f9a944dc35
 E
 src/app/not-found.tsx,5\6\566fd345528a2a2239d7e8274d13c27baa8a8402
 @
@@ -67,3 +65,7 @@ A
 src/app/robots.ts,c\3\c3c5652ebdad2c5c135c0bc11ba3dcd5f5e63d8c
 B
 src/app/sitemap.ts,d\c\dc37724f6bc418bba3e45c3f1740aa0f3ffd8ebe
+L
+src/assets/icons/go-back.svg,6\d\6d7bcf3e352d567ed708d6124bc96cf3158310dd
+P
+ src/components/go-back/index.tsx,6\a\6a56e95394d37ac13dfb3eca76c3858bb2ce646c

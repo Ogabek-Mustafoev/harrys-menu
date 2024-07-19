@@ -1,5 +1,6 @@
 import burger_icon from '@/assets/icons/burger.svg';
 import drinks_icon from '@/assets/icons/drinks.svg';
+import goBack_icon from '@/assets/icons/go-back.svg';
 import hotDog_icon from '@/assets/icons/hot-dog.svg';
 import navBg_icon from '@/assets/icons/nav-bg.svg';
 import sideDishes_icon from '@/assets/icons/side-dishes.svg';
@@ -36,6 +37,7 @@ export {
   hotDog_icon,
   mixLogo_img,
   mixture_img,
+  goBack_icon,
   whiteLogo_img,
   meatHotDog_img,
   meatBurner_img,

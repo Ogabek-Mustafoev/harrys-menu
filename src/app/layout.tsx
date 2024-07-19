@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: logo_img.src,
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: "The Harry's COFFEE & SNACKS",
       },
     ],
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: logo_img.src,
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: "The Harry's COFFEE & SNACKS",
       },
     ],
@@ -87,7 +87,7 @@ export default function RootLayout({children}: Readonly<IChildren>) {
       </BaseLayout>
     </Providers>
     <div
-      className="bg-primary absolute bottom-0 left-0 h-10 sm:h-14 md:h-16 lg:h-20 w-1/5"
+      className="bg-primary flex items-center justify-center absolute bottom-0 left-0 h-10 sm:h-14 md:h-16 lg:h-20 w-1/5"
       style={{
         borderRadius: "0% 100% 0% 100% / 100% 100% 0% 0% "
       }}
