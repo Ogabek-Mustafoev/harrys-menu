@@ -11,7 +11,7 @@ export const BurgersPage: FC = () => {
       <div className="grid grid-cols-2 gap-3 sm:gap-5 md:gap-y-8 md:gap-x-20">
         {burgersData.map((item, idx) => (
           <MotionEl className="max-w-sm" delay={idx / 10} key={item.price}>
-            <Card className="bg-transparent group items-center w-full text-white" isPressable>
+            <Card aria-label="ripple card" className="bg-transparent group items-center w-full text-white" isPressable>
               <CardHeader className="overflow-hidden -z-0">
                 <NextImage
                   src={item.image}

@@ -52,7 +52,8 @@ export const DrinksPage: FC = () => {
                 delay={idx / 5}
                 direction="right"
               >
-                <Card isPressable className="flex group w-full flex-row-reverse gap-5 bg-transparent items-center">
+                <Card aria-label="ripple card" isPressable
+                      className="flex group w-full flex-row-reverse gap-5 bg-transparent items-center">
                   <CardHeader className="w-max -z-0 h-60 sm:h-auto">
                     <Image
                       src={item.image}

@@ -13,7 +13,7 @@ export const HotDogsPage: FC = () => {
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6 lg:gap-8 xl:gap-10">
         {hotDogData.map((item, idx) => (
           <MotionEl className="max-w-sm" delay={idx / 10} key={idx + "-hotDog"}>
-            <Card className="bg-transparent w-full group items-center text-white" isPressable>
+            <Card aria-label="ripple card" className="bg-transparent w-full group items-center text-white" isPressable>
               <CardHeader className="overflow-hidden -z-0">
                 <NextImage
                   src={item.image}

@@ -12,7 +12,8 @@ export const SideDishesPage: FC = () => {
         <div className="flex lg:flex-col gap-3 w-full lg:w-2/6">
           {sideDishesData.slice(0, 2).map((item, idx) => (
             <MotionEl key={idx + "-side"} delay={idx / 5} direction="left">
-              <Card className="bg-transparent w-full group items-center text-white" isPressable>
+              <Card aria-label="ripple card" className="bg-transparent w-full group items-center text-white"
+                    isPressable>
                 <CardHeader className="overflow-hidden -z-0">
                   <NextImage
                     loading="lazy"

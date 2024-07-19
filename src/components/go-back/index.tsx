@@ -11,9 +11,11 @@ export const GoBack: FC = () => {
 
   return (
     <div className="flex items-center mt-2 mb-10 justify-center w-full">
-      <Tooltip offset={14} delay={300} content="Назад">
+      <Tooltip aria-label="go-back" id="goBack" showArrow color="foreground" offset={14} delay={500} content="Назад">
         <Button
           isIconOnly
+          type="button"
+          aria-labelledby="goBack"
           onClick={() => router.back()}
           className="wave-loader flex items-center overflow-visible w-12 h-12 p-2 justify-center mx-auto"
         >
